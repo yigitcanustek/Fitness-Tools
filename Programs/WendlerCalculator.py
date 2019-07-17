@@ -19,7 +19,7 @@
 #Estimate 1RM of the Big 3 = Weight x Reps x .0333 + Weight = Estimated 1RM 
 
 import math 
-def OneRepMax(weight, reps): #kg or pound choose one, i think pound is better because higher 
+def OneRepMax(weight, reps): #kg or pound choose one, i think pound is better because higher :)
  return math.ceil(weight * reps * ((10/3) * pow(10,-2)) + weight)
 
 
